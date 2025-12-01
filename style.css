@@ -1,0 +1,86 @@
+body{
+  font-family: tahoma;
+  background-color: #efebe0;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+p{
+  color: #806b63;
+  font-size: 18px;
+}
+
+.navbar{
+  width: 100%;
+  background: #e8c4c6;
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul{
+  display: flex;
+  flex: 1;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar img{
+  flex: 1;
+  height: 150px;
+  width: 650px;
+  object-fit: cover;
+}
+
+h1{
+  color: #806b63;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 60px;
+}
+
+h2{
+  color: #806b63;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 55px;
+}
+
+.introduction{
+  background-image: url("Background.png");
+  background-size: cover;       
+  background-position: center;
+  border-radius: 20px;
+  box-shadow: 0 2px 50px #e8c4c699;
+  padding: 40px;
+  margin-top: 20px;
+  color: #806b63;
+  text-align: center;
+}
+
+.customerreviews{
+  background-image: url("Background2.png");
+  background-size: cover;       
+  background-position: center;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 50px #e8c4c699;
+  padding: 40px;
+  color: #806b63;
+  text-align: center;
+}
+
+.footer {
+  background-color: #E8C4C6;
+  color:#806B63;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  width: 100%;
+}
